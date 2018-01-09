@@ -1,0 +1,18 @@
+///* ========================================================================
+//   				Global Variables
+//   ======================================================================== */
+
+// Font settings (size, line height, spacing)
+$global-font-size: 	16px !default;
+$global-line-height:	24px !default;
+
+$global-spacing-unit: round($global-line-height) !default;
+
+$global-spacing-unit-factor-xsmall:   	0.25 !default;
+$global-spacing-unit-factor-small:  	0.5  !default;
+$global-spacing-unit-factor-large:  	2    !default;
+$global-spacing-unit-factor-xlarge: 	4    !default;
+
+// UI defaults
+$global-radius: 3px !default;
+$global-transition: all 300ms ease-in-out !default;
