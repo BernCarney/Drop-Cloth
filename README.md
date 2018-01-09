@@ -4,7 +4,7 @@
 
 ## Project Goals
 
-* Use a consistent workflow leveraging Git version control and semantic version naming (ie:*MAJOR.MINOR.PATCH*).
+* Use a consistent workflow leveraging Git version control and semantic version naming (e.g. *`MAJOR.MINOR.PATCH`*).
 * Follow ITCSS (Inverted Triangle CSS) methodologies as much as possible.
 * Comment and document to explain how each piece of the project works
 * Use clear and concise naming conventions throughout the project
