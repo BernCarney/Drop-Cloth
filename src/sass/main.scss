@@ -1,0 +1,28 @@
+///* ======================================================================
+//                             Main Import
+//   ====================================================================== */
+
+// Imports in here shouldn't change unless more folders or structure has changed.
+// Each directory has it's own master import file which is where updates are made.
+// Keep in mind that the import order matters here when using the ITCSS methodology.
+
+// Settings
+@import "settings/settings";
+
+// Tools
+@import "tools/tools";
+
+// Generic
+@import "generic/generic";
+
+// Elements
+@import "elements/elements";
+
+// Objects
+@import "objects/objects";
+
+// Components
+@import "components/components.scss";
+
+// Utilities
+@import "utilities/utilities";

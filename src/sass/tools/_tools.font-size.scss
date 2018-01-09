@@ -1,0 +1,32 @@
+///* ======================================================================
+//                             REM Font-Size Helper
+//   ====================================================================== */
+
+// This mixin provides a simple way to convert `px` size values into `rem` values and a matching lineheight
+// Normally conversion mixins of this type will provide a `px` fallback for older values, however, this
+// boilerplate does not aim for backwards compatability beyond prefixing
+
+@mixin set-rem-font($font-size, $line-height: auto) {
+  @if (type-of($font-size)==number) {
+    @if (unit($font-size) !="px") {
+      @error "`#{$font-size}` should be a pixel value.";
+    }
+  }
+  @else {
+    @error "`#{$font-size}` should be a number.";
+  }
+  // Set the font-size
+  font-size: ($font-size / $global-font-size) * 1rem;
+
+  @if ($line-height==auto) {
+    line-height: ceil($font-size / $global-line-height) * ($global-line-height / $font-size);
+  }
+  @else {
+    @if (type-of($line-height)==number or $line-height=="inherit" or $line-height=="normal") {
+      line-height: $line-height;
+    }
+    @else if ($line-height !='none' and $line-height !=false) {
+      @error "'#{$line-height}` is not one of the following values (none, normal, inherit, false, or a number)."
+    }
+  }
+}
