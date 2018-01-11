@@ -28,7 +28,7 @@ This is another optional layer if you write your CSS in more of an object-orient
 
 *Component classes are preceded by a `c-`*
 
-This is the meat and potatoes of the architecture where you make it your own. This are cosmetic rules that make the objects we defined in the layer above, look pretty. Each partial should be a complete component (e.g. `.c-navbar {}`, `.c-menu {}`, `.c-form`).
+This is the meat and potatoes of the architecture where you make it your own. These are cosmetic rules that make the objects we defined in the layer above, look pretty. Each partial should be a complete component (e.g. `.c-navbar {}`, `.c-menu {}`, `.c-form`).
 
 ## Utilities
 

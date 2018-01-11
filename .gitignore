@@ -2,3 +2,4 @@ node_modules/
 *.css
 *.gz
 .sass-cache
+/static/js/feather.min.js
