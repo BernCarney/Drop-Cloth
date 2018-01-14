@@ -14,3 +14,8 @@ html {
   overflow-y: scroll;
   min-height: 100vh;
 }
+
+body {
+  font-family: $global-font-family;
+  color: $global-color-text;
+}

@@ -1,7 +1,9 @@
 ///* ======================================================================
-//                             Elements Imports
+//                             Links
 //   ====================================================================== */
 
-@import "./elements.page";
-@import "./elements.headings";
-@import "./elements.links";
+a {
+    color: darken($global-color-text, 20%);
+    text-decoration: none;
+    font-weight: 500;
+}
