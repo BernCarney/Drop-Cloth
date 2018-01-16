@@ -5,17 +5,13 @@
 
 //   font-size:    using global-font-size and EM allows us to still maintain an intended scale for the site while also being accessible
 //   overflow-y:   forces vertical scrollbars so the page is not jump when there isn't enough content for scrollbars to show automatically
-//   min-height:   sets the height of the page to a minimum of the viewport size so that it will always fill  
-
+//   min-height:   sets the height of the page to a minimum of the viewport size so that it will always fill
 
 html {
-  font-size: ($global-font-size / 16px) * 1em;
-  line-height: $global-line-height / $global-font-size;
-  overflow-y: scroll;
-  min-height: 100vh;
-}
-
-body {
-  font-family: $global-font-family;
-  color: $global-color-text;
+    font-size: ($global-font-size / 16px) * 1em;
+    line-height: $global-line-height / $global-font-size;
+    font-family: $global-font-family;
+    color: $global-color-text;
+    overflow-y: scroll;
+    min-height: 100vh;
 }

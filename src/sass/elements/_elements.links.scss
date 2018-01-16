@@ -3,7 +3,6 @@
 //   ====================================================================== */
 
 a {
-    color: darken($global-color-text, 20%);
-    text-decoration: none;
+    color: $global-color-primary;
     font-weight: 500;
 }

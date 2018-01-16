@@ -2,23 +2,39 @@
 //				  Common Shared Attributes
 //   ================================================================================== */
 
+/* Font family settings */
+* {
+    font-family: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+
 /* Bottom margin for various elements */
 
 address,
-h1, h2, h3, h4, h5, h6,
-blockquote, p, pre,
-dl, ol, ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+p,
+pre,
+dl,
+ol,
+ul,
 figure,
 hr,
 table,
 fieldset {
-  margin-bottom: $global-spacing-unit;
+    margin-bottom: $global-spacing-unit;
 }
 
 /* Indentation for lists */
 
-dd, ol, ul {
-	margin-left: $global-spacing-unit;
+dd,
+ol,
+ul {
+    margin-left: $global-spacing-unit;
 }
-
-

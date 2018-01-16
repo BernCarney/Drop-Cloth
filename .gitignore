@@ -3,3 +3,4 @@ node_modules/
 *.gz
 .sass-cache
 /static/js/feather.min.js
+/static/css/maps/main.min.css.map

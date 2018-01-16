@@ -3,16 +3,16 @@
 //   ======================================================================== */
 
 // Font settings (size, line height, spacing)
-$global-font-size: 	16px !default;
-$global-line-height:	24px !default;
-$global-font-family: 'Raleway', sans-serif;
+$global-font-size: 16px !default;
+$global-line-height: 24px !default;
+$global-font-family: "Raleway", sans-serif;
 
 $global-spacing-unit: round($global-line-height) !default;
 
-$global-spacing-unit-factor-xsmall:   	0.25 !default;
-$global-spacing-unit-factor-small:  	0.5  !default;
-$global-spacing-unit-factor-large:  	2    !default;
-$global-spacing-unit-factor-xlarge: 	4    !default;
+$global-spacing-unit-factor-xsmall: 0.25 !default;
+$global-spacing-unit-factor-small: 0.5 !default;
+$global-spacing-unit-factor-large: 2 !default;
+$global-spacing-unit-factor-xlarge: 4 !default;
 
 // UI defaults
 $global-radius: 3px !default;
@@ -23,21 +23,21 @@ $global-transition: all 300ms ease-in-out !default;
 
 // Primary Scheme
 $global-color-torch-red: #f60a20 !default;
-$global-color-concrete: #F2F2F2 !default;
-$global-color-granite-green: #8C8979 !default;
+$global-color-concrete: #f2f2f2 !default;
+$global-color-granite-green: #8c8979 !default;
 $global-color-tundora: #404040 !default;
 $global-color-thunder: #262526 !default;
 
 // Secondary Scheme
-$global-color-don-juan: #5C4B51 !default;
-$global-color-shadow-green: #8CBEB2 !default;
-$global-color-mint-julep: #F2EBBF !default;
-$global-color-burnt-sienna: #F06060 !default;
-$global-color-rajah: #F3B562 !default;
+$global-color-don-juan: #5c4b51 !default;
+$global-color-shadow-green: #8cbeb2 !default;
+$global-color-mint-julep: #f2ebbf !default;
+$global-color-burnt-sienna: #f06060 !default;
+$global-color-rajah: #f3b562 !default;
 
 // Tertiary Scheme
-$global-color-outer-space: #2B3A42 !default;
-$global-color-fiord: #3F5765 !default;
-$global-color-ziggurat: #BDD4DE !default;
-$global-color-gallery: #EFEFEF !default;
-$global-color-sunset-orange: #FF5035 !default;
+$global-color-outer-space: #2b3a42 !default;
+$global-color-fiord: #3f5765 !default;
+$global-color-ziggurat: #bdd4de !default;
+$global-color-gallery: #efefef !default;
+$global-color-sunset-orange: #ff5035 !default;

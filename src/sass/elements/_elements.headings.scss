@@ -2,13 +2,12 @@
 //                             Headings
 //   ====================================================================== */
 
-
 // Base PX sizes
-$font-size-h1:  36px !default;
-$font-size-h2:  28px !default;
-$font-size-h3:  24px !default;
-$font-size-h4:  20px !default;
-$font-size-h5:  18px !default;
+$font-size-h1: 36px !default;
+$font-size-h2: 28px !default;
+$font-size-h3: 24px !default;
+$font-size-h4: 20px !default;
+$font-size-h5: 18px !default;
 $font-size-h6: 16px !default;
 
 // REM based sizes using mixing
@@ -36,6 +35,11 @@ h6 {
     @include set-rem-font($font-size-h6);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 500;
 }
