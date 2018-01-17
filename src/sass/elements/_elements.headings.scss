@@ -10,7 +10,7 @@ $font-size-h4: 20px !default;
 $font-size-h5: 18px !default;
 $font-size-h6: 16px !default;
 
-// REM based sizes using mixing
+// REM based sizes using mixin
 h1 {
     @include set-rem-font($font-size-h1);
 }

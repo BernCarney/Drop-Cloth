@@ -5,4 +5,10 @@
 a {
     color: $global-color-primary;
     font-weight: 500;
+    &:hover,
+    &:active,
+    &:focus {
+        font-weight: 600;
+        text-decoration: none;
+    }
 }
